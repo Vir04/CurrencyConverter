@@ -1,0 +1,120 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full Page Centering */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4e1ba; /* Light beige background */
+}
+
+/* Container Box */
+.container {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 370px;
+}
+
+/* Title */
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Input Amount */
+.amount label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.amount input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Currency Selection (Same Row) */
+.dropdown {
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    gap:15px;
+    margin: 15px 0;
+}
+
+/* Currency Box */
+.currency-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 6px;
+    background: #f9f9f9;
+    width: 45%; /* Ensure both dropdowns fit side by side */
+}
+
+
+#from-currency{
+    height: 25px; 
+    border-radius: 5px;  
+   
+}
+
+#to-currency{
+    height: 25px; 
+    border-radius: 5px; 
+}
+
+/* Swap Button */
+.swap {
+    font-size: 22px;
+    cursor: pointer;
+    color: #333;
+    margin-left:15px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Exchange Rate Display */
+.msg {
+    font-size: 15px;
+    margin-top:1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Convert Button */
+#convert-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #9b4f96;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
